@@ -120,6 +120,7 @@
 	<haxelib name="linc_luajit" if="windows || android"/>
 	<haxelib name="actuate" />
 	<haxelib name="hxCodec" if="desktop || android"/>
+	<haxelib name="extension-androidtools" if="android"/>
 	<haxelib name="extension-webm" if="desktop" />
 
 	<!-- <haxelib name="hxcpp-debug-server" if="desktop"/> -->
