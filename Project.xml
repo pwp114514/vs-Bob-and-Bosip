@@ -118,6 +118,7 @@
 	<haxelib name="discord_rpc" if="windows"/>
 	<haxelib name="linc_luajit" if="windows || android"/>
 	<haxelib name="actuate" />
+	<haxelib name="newgrounds" unless="android"/>
 	<haxelib name="extension-androidtools" if="android"/>
 	<haxelib name="extension-webm" if="desktop || android" />
 
