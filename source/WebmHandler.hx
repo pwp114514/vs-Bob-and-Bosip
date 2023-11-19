@@ -10,6 +10,7 @@ class WebmHandler
 {
 	#if (desktop || android)
 	public var webm:WebmPlayer;
+	public var SKIP_STEP_LIMIT = 0;
 	public var vidPath:String = "";
 	public var io:WebmIo;
 	public var initialized:Bool = false;
