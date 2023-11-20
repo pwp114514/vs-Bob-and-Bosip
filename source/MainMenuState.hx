@@ -20,14 +20,16 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.math.FlxRandom;
 import flixel.addons.transition.FlxTransitionableState;
+#if newrounds
 import io.newgrounds.NG;
+#end
 import lime.app.Application;
 import flixel.math.FlxPoint;
 import flixel.math.FlxMath;
+import sys.FileSystem;
 
 #if windows
 import Discord.DiscordClient;
-import sys.FileSystem;
 #end
 
 using StringTools;
