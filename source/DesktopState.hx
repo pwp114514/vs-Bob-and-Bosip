@@ -29,7 +29,9 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
+#if newrounds
 import io.newgrounds.NG;
+#end
 import flixel.util.FlxSpriteUtil;
 import lime.app.Application;
 import openfl.Assets;
@@ -38,9 +40,10 @@ import D;
 
 #if windows
 import Discord.DiscordClient;
+#end
+
 import Sys;
 import sys.FileSystem;
-#end
 
 #if cpp
 import sys.thread.Thread;
